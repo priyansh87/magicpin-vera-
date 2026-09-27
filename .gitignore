@@ -1,0 +1,32 @@
+# Environment variables & secrets (CRITICAL: Do not commit)
+.env
+.env.local
+.env.*.local
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Scratch & temporary logs
+scratch/
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE & system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.agents/
+.gemini/
